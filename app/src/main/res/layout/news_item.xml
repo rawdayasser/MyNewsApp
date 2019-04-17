@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/news_image_view"
+        android:src="@color/colorAccent"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/news_content_text_view"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/news_image_view"
+        android:text="News content...News content...News content..News content...News content...News content...News content..News content...News content"
+        android:layout_marginRight="16dp"
+        android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_date_text_view"
+            android:layout_below="@id/news_content_text_view"
+            android:layout_alignParentRight="true"
+            android:text="April 17 2019"
+            android:textColor="#ce4b05"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="7dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_source_text_view"
+        android:layout_below="@id/news_image_view"
+        android:text="BBC World News"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+        />
+</RelativeLayout>
